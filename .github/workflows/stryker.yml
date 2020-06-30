@@ -5,7 +5,7 @@ name: Stryker
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, stryker-master ]
 
 jobs:
   build:
